@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #101820FF url('imagens/fundohome3.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    color: #F2AA4CFF;
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    padding: 5px;
+}
+
+#header-title {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#logout-btn {
+    color: #F2AA4CFF;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #101820FF;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #F2AA4CFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F2AA4CFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+
+.post h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.post p {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post span {
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.no-posts {
+    text-align: center;
+    font-style: italic;
+}

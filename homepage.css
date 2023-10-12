@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #101820FF url('imagens/fundohome3.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    padding: 5px;
+  }
+  
+  #header-title {
+    color: #F2AA4CFF;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  #logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #F2AA4CFF;
+    text-decoration: none;
+  }
+  
+  #content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar {
+    background-color: #101820FF;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #navbar a {
+    color: #F2AA4CFF;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  #username {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F2AA4CFF;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #F2AA4CFF;
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 90%; 
+    margin: 0 auto; 
+  }
+  
+  #text-fastwork {
+    font-size: 8vw; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(242, 170, 76, 0.6);
+  }
+  
+  #text-procura {
+    font-size: 6.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F2AA4CFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+  

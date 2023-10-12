@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #101820FF url('imagens/fundohome3.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campo input[type="text"],
+.campo textarea,
+.campo select {
+    width: 97%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.campo textarea {
+    height: 150px;
+}
+
+.campo .botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.campo input[type="text"]:focus,
+.campo textarea:focus,
+.campo select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    padding: 5px;
+  }
+  
+  #header-title {
+    color: #F2AA4CFF;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  #logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #F2AA4CFF;
+    text-decoration: none;
+  }
+  
+  #content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar {
+    background-color: #101820FF;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #navbar a {
+    color: #F2AA4CFF;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  #username {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F2AA4CFF;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #F2AA4CFF;
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    text-align: center;
+  }
+  .botaoS {
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+      font-size: 20px;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      padding: 5px 15px;
+  }
+  
+.botaoS:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+      cursor: pointer;
+  }

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #101820FF url('imagens/fundohome3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #101820FF;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.container label {
+    color: #101820FF;
+    font-weight: bold;
+}
+
+.container input,
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: #101820FF;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #101820FF;
+}
+
+.container input[type="submit"] {
+    background-color: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #016ABC;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    padding: 5px;
+}
+
+#header-title {
+    color: #F2AA4CFF;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#logout-btn {
+    color: #F2AA4CFF;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #101820FF;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #F2AA4CFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F2AA4CFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h3 {
+    color: #F2AA4CFF;
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+}
